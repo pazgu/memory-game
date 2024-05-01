@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Memory Game</h1>
+    <div class="buttons">
+      <button onclick="startGame(3, 4)">3x4</button>
+      <button onclick="startGame(4, 4)">4x4</button>
+      <button onclick="startGame(4, 5)">4x5</button>
+      <button onclick="startGame(4, 6)">4x6</button>
+    </div>
+    <div class="game-container">
+      <!-- Game board will adjust here -->
+    </div>
+    <div class="footer">
+        <button type="button" id="moves">Moves: 0</button>
+        <button type="button" id="timer">Time: 0s</button>
+    </div>
+  </div>
+
+  <script src="memory_game.js"></script>
+</body>
+</html>
+
